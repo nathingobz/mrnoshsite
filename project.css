@@ -1,0 +1,402 @@
+/*********************************Homepage****************************************/
+
+.pic {
+    height: 50%;
+    width: 49%;
+    /*float:left;*/
+    padding: 1px;
+}
+
+.text {
+    width: 340px;
+    height: 217px;
+    background: #FFF;
+    opacity: 0;
+}
+
+.pic:hover .text {
+    opacity: 0.6;
+    text-align: justify;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Times New Roman", Times, serif;
+    padding: 30px;
+}
+
+.grandparent {
+    width: 250px;
+    height: 250px;
+    background-color: #CCCCCC;
+    position: relative;
+}
+
+.parent {
+    width: 150px;
+    height: 150px;
+    background-color: #999999;
+    /*position:absolute;*/
+    bottom: 0px;
+}
+
+.child {
+    width: 70px;
+    height: 70px;
+    background-color: #666666;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+/*********************************Homepage****************************************/
+
+.container {
+    height: 100%;
+    min-height: 100%;
+    width: 1080px;
+    margin: 0 auto;
+    background-color: gray;
+    text-align: center;
+}
+
+
+/*Start Navigation without dropdowns*/
+
+.nav {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+/*********************End Navigation without dropdowns***********************************/
+
+.frms {
+    tex-align: center
+}
+
+
+/*****************************************General Table Style*********************************/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    text-align: left;
+    /*padding: 8px;*/
+}
+
+
+/*th {
+
+    color: white;
+}*/
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/**************************************ENd General Table Style*********************************/
+
+span {
+    color: #ff0000;
+}
+
+
+/*footer{position: fixed;
+   bottom: 0;
+    width:940px;
+   border-top: lightgray 1px solid;
+   }*/
+
+.blue {
+    text-align: center;
+    border: solid thin darkgray;
+    font-weight: 600;
+    bottom: 0;
+    /* bottom:5px;*/
+}
+
+.myBody {
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    /*padding: 10px;*/
+    margin-bottom: 0
+}
+
+
+/*********************Start Scrolling table************************************/
+
+#table_wrapper {
+    background: tomato;
+    border: 1px solid olive;
+    float: left;
+    width: 940px;
+}
+
+#tbody {
+    height: 500px;
+    overflow-y: auto;
+    width: 941px;
+    background: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 1px 5px;
+    /* pixels */
+    border-right: 1px solid darkgray;
+    /* to avoid the hacks for the padding */
+    border-bottom: 1px solid darkgray;
+}
+
+
+/******************Products table*****************************/
+
+.td1 {
+    width: 25px;
+}
+
+.td2 {
+    width: 250px;
+}
+
+.td3 {
+    width: 360px;
+}
+
+.td4 {
+    width: 75px;
+}
+
+.td5 {
+    width: 125px;
+}
+
+.td6 {
+    border-right-width: 0;
+}
+
+
+/* optional */
+
+#header {
+    width: 941px;
+    background: Darkgray;
+    border-bottom: 1px solid Darkgray;
+}
+
+#header div {
+    padding: 1px 5px;
+    float: left;
+}
+
+#header #head1 {
+    width: 25px;
+}
+
+
+/* Row number */
+
+#header #head2 {
+    width: 250px;
+}
+
+
+/* Item name */
+
+#header #head3 {
+    width: 360px;
+}
+
+
+/* description */
+
+#header #head4 {
+    width: 75px;
+}
+
+
+/* Price */
+
+#header #head5 {
+    width: 125px;
+}
+
+
+/* Category */
+
+#header #head6 {
+    float: none;
+    border-right-width: 0
+}
+
+
+/* Select */
+
+
+/***************End Products table**************************/
+
+
+/******************People table*****************************/
+
+.td11 {
+    width: 25px;
+}
+
+.td12 {
+    width: 200px;
+}
+
+.td13 {
+    width: 200px;
+}
+
+.td14 {
+    width: 250px;
+}
+
+.td15 {
+    width: 150px;
+}
+
+.td16 {
+    border-right-width: 0;
+}
+
+
+/* optional */
+
+#header1 {
+    width: 942px;
+    background: Darkgray;
+    border-bottom: 1px solid Darkgray;
+}
+
+#header1 div {
+    padding: 1px 5px;
+    float: left;
+}
+
+#header1 #head11 {
+    width: 25px;
+}
+
+
+/*Row number */
+
+#header1 #head12 {
+    width: 200px;
+}
+
+
+/* name */
+
+#header1 #head13 {
+    width: 200px;
+}
+
+
+/* surname */
+
+#header1 #head14 {
+    width: 250px;
+}
+
+
+/* Price */
+
+#header1 #head15 {
+    width: 150px;
+}
+
+
+/* Category */
+
+#header1 #head16 {
+    float: none;
+    border-right-width: 0
+}
+
+
+/* Select */
+
+
+/***************End People table**************************/
+
+
+/*********************End Scrolling table************************************/
+
+span {
+    color: #ff0000;
+}
+
+
+/*Contact details on the conctact us page*/
+
+.contact {
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/*****************************************Forms***************************
+.my_content_container a {
+    border-bottom: 1px solid #777777;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #333333;
+    border-top: 1px solid #000000;
+    color: #000000;
+    display: block;
+    height: 2.5em;
+    padding: 0 1em;
+    width: 5em;       
+    text-decoration: none;       
+}
+
+
+/***************************************End Forms****************************/
+
+
+/************************************************************************
+* {
+  margin: 0;
+}
+
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height /
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+*/

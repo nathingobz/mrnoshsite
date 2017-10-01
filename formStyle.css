@@ -1,0 +1,105 @@
+/*This is the style for all the pages*/
+
+
+/*The Ngobeni Functions Banners size*/
+
+header {
+    text-align: center;
+}
+
+img.banner {
+    height: 50;
+}
+
+
+/*Navigation on the left*/
+
+td.menu1 {
+    width: 125;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    vertcal-align: top;
+    margin-top: 0;
+    border-bottom: 1px darkgray solid
+}
+
+
+/*Table background and other*/
+
+table {
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*body {vertical-align:top;}/
+
+/*Form style*/
+
+.myfooter {
+    clear: both;
+    bottom: 0;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+    font-weight: 600;
+}
+
+.formstyle {
+    color: #000000;
+    border-width: thin;
+    border-style: solid;
+    border-color: #000000;
+}
+
+
+/*Text at the bottom*/
+
+.blue {
+    bottom: 0;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+    font-weight: 600;
+}
+
+
+/*
+a:active{color: transparent;}
+a:focus{color: transparent;}
+a:hover{color: transparent;}
+a:link{color: transparent;}
+a:visited{color: transparent;}
+		*/
+
+span {
+    color: #ff0000;
+}
+
+
+/*Contact details on the conctact us page*/
+
+.contact {
+    font-family: Courier New, Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+/*Paragraph style*/
+
+p {
+    vertical-align: top;
+    font-family: Comic Sans MS;
+    padding: 0;
+}
+
+
+/*Date style*/

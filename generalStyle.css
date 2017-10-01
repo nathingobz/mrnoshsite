@@ -1,0 +1,24 @@
+/*General styling for this example*/
+*{ margin: 0; padding:0; }
+body { padding: 20px; }
+/* Begin gallery styling*/
+#jgal {list-style: none; width: 200px; }
+#jgal li {opacity: :.5; float: left; display: block; width: 60px; height: 60px; 
+	background-position: 50% 50%; cursor: pointer; border: 3px solid #fff; 
+	outline: 1px solid #ddd; margin-right: 14px; margin-bottom: 14px; }
+#jgal li img { position: absolute; top: 20px; left: 220px; display: none; }
+#jgal li.active img {display: block;}
+#jgal li.active, #jgal li:hover {outline-color: #bbb; opacity: .99; /* Safari bug */ }
+
+/* Styling without javascript */
+#gallery { list-style: none; display: block; }
+#gallery li { float: left; margin: 0 10px 10 px 0; }
+
+<!--[if lt IE 8]>
+<style media="screen, projection" type="text/css">
+#jgal li {filter: alpha(opacity=50); }
+#jgal li.active, #jgal li:hover { filter: alpha(opacity=100); }
+</style>
+<![endif]-->
+
+<script type="text/javascript">document.write("<style type='text/css'> #gallery ( display: none; } </style>");</script>
