@@ -96,7 +96,7 @@ function cssGalleryOut(){
                         }
                         if (strpos($bool, '1')==false){
                             $cnt = $cnt + 1;
-                        print '<img src="'. $outstr .'" alt="Image '.$cnt.'"></img>';
+                        print '<img src="'. $outstr .'" onclick="urjsfunction(this);" ></img>';
                         }
                    } 
                 }

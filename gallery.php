@@ -8,7 +8,7 @@ require 'config.php';
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="project.css">
-  
+  <link rel="stylesheet" href="modal.css">
 <style type="text/css">
     img{
     display:inline-block;
@@ -75,7 +75,11 @@ require 'menu.php';
      cssGalleryOut();
      ?>
 </div>
-
+    <?php
+    require 'modal.html';
+    ?>
+    
+     <script type="text/javascript" src="js/modal.js"></script>  
 <footer>
 
   <div class="blue">YOUR ONE STOP HIRING SERVICES <br />FOR: MARQUEES, CHAIRS, TABLES, CATERING SERVICES, 
